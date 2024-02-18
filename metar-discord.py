@@ -1,5 +1,5 @@
 import requests
-from bs4 import BeautifulSoup
+
 
 def get_kccr_atis():
     # URL for the latest ATIS information at KCCR
@@ -25,7 +25,7 @@ def get_kccr_atis():
 
 def send_discord_webhook(content):
     # Replace 'YOUR_DISCORD_WEBHOOK_URL' with your actual Discord webhook URL
-    webhook_url = 'https://discordapp.com/api/webhooks/1199221321582776422/My073CFFbvzYe3lxmvSk6ziAi7D0AJibgXl6npQmimT7vf29s99XQGpvOoYbBnuSnPwT'
+    webhook_url = 'replace with your webhook'
 
     # Payload for the Discord webhook
     payload = {'content': content}
